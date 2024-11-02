@@ -59,6 +59,8 @@ while not is_game_over():
     else:
         errors += 1
         print(f"Oops :( No such word, you have {ERRORS_TO_LOSE - errors} lives more")
+        
 print("HAHHAHAH You losE, Men you're a really bad player")
-print("BIBOBU")
+print(f"It took you {guesses} turns. LOL")
+
 exit()
